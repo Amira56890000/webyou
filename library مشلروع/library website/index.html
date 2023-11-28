@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+   body {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="category.html">Categories</a>
+        <a href="arraival.html">Blog</a>
+        <a href="author.html">Authors</a>
+        <a href="book.html">Book Fair</a>
+        <a href="contact.html">Contact us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      
+      <div class="wrapper">
+        <img src="551.jpg" alt="">
+        <div class="text-box">
+            <h4>WELCOME TO BOOKLY WEBSITE</h4>
+            <h2><b>WHERE YOU CAN FIND ANY AND EVERY BOOK</b></h2>
+            <br>
+            <p>virtual portal to a wealth of information and resources, serving as a gateway to the vast collections and services offered by a library. It's a dynamic hub that caters to the diverse needs of library patrons, ranging from students and researchers to casual readers and community members.</p>
+        </div>
+      </div>
+
+      <div class="middlebar">
+        <center>
+            
+            <table class="feature">
+                <tr>
+                    <td>70% OFF</td>
+                    <td>FAST SHIPPING</td>
+                    <td>+1M BOOK</td>
+                    <td>PAPPER + PDF</td>
+                </tr>
+            </table>
+        </center>
+      </div>
+      <div class="subscribe">
+        <center>
+            <form action="">
+                <input type="email" placeholder="Enter your email" required>
+                <input type="submit" value="subscribe">
+            </form>
+        </center>
+       
+      </div>
+      
+       
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+</html>
